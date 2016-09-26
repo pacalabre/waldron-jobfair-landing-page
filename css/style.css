@@ -61,6 +61,13 @@ fieldset {
   vertical-align: middle;
   -webkit-tap-highlight-color: transparent;
   font-size: 18px;
+  color: white;
+  background-color: grey;
+}
+
+.submit-btn:hover {
+  color: black;
+  background-color: darkgrey;
 }
 
 .company-logo {
