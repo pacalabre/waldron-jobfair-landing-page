@@ -40,11 +40,6 @@ fieldset {
   text-align: left;
 }
 
-.radioSection {
-  text-align: left;
-  margin-left: 10%;
-}
-
 .label-button {
   color: black;
 }
@@ -74,7 +69,19 @@ fieldset {
   width: 35%;
 }
 
+
+@media only screen and (min-width: 400px) and (max-width: 599px) {
+  .rsvp-header {
+    margin: 7% 0px;
+  }
+}
+
+
 @media only screen and (min-width: 600px) and (max-width: 800px) {
+
+  .rsvp-header {
+    margin: 5% 0px;
+  }
 
   .section-h2 {
   font-size: 35px;
@@ -84,8 +91,8 @@ fieldset {
     font-size: 17px;
   }
 
-  .footer-logo {
-    width: 40%;
+  .company-logo {
+    width: 30%;
   }
 }
 
@@ -93,6 +100,16 @@ fieldset {
 
   nav ul a, .submit-btn, .header-rsvp-btn {
     font-size: 1.7rem;
+  }
+
+  .header-img {
+    background-image: url('../images/large-building-background.png');
+    height: 430px;
+    background-size: cover;
+  }
+
+  .rsvp-header {
+    margin: 4% 0px;
   }
 
   .event-detail-label{
@@ -111,12 +128,9 @@ fieldset {
     width: 60%;
   }
 
-  .radioSection {
-    margin-left: 19%;
-  }
-
-  .footer-logo {
+  .company-logo {
     width: 30%;
+    margin: 10% auto;
   }
 }
 
@@ -166,12 +180,8 @@ fieldset {
     width: 45%;
   }
 
-  .radioSection {
-    margin-left: 27%;
-  }
-
-  .footer-logo {
-    width: 25%;
+  .company-logo {
+    width: 20%;
   }
 }
 
