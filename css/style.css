@@ -1,14 +1,17 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
 .header-img {
   background-image: url('../images/mobile-img.png');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 300px;
 }
 
 .rsvp-header {
-  margin-top: 5%;
+  margin: 10% 0px;
   text-align: center;
-  font-size: 50px;
+  font-size: 35px;
+  font-family: roboto;
 }
 
 
@@ -27,11 +30,13 @@ input[type = text] {
 
 fieldset {
   border: none;
+  padding: 10px;
 }
 
 .form-group-label {
   font-size: 15px;
   color: black;
+  font-family: roboto;
   text-align: left;
 }
 
@@ -61,6 +66,12 @@ fieldset {
   vertical-align: middle;
   -webkit-tap-highlight-color: transparent;
   font-size: 18px;
+}
+
+.company-logo {
+  display: block;
+  margin: 15% auto;
+  width: 35%;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 800px) {
