@@ -1,0 +1,15 @@
+.header-img {
+  background-image: url('../images/mobile-img.png');
+/*  width: 100%; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  /*margin-top: -8px;*/
+  height: 300px;
+}
+
+.rsvp-header {
+  margin-top: 5%;
+  text-align: center;
+  font-size: 50px;
+
+}
