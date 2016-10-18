@@ -4,51 +4,77 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ARRIS Job Fair</title>
   <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
+<body class="container">
   <section class="header-img">
     <h3 class="header-text">ARRIS Job Fair</h3>
   </section>
-  <section>
-    <h3 class="rsvp-header">RSVP</h3>
-  </section>
-  <section>
-    <form>
-        <fieldset class="form-group">
-          <label class="form-group-label">First Name</label>
-          <br/>
-          <input class="textInput" type="text" name="firstName" required="" />
-        </fieldset>
-        <fieldset class="form-group">
-          <label class="form-group-label">Last Name</label><br />
-          <input class="textInput" type="text" name="lastName" required="" />
-        </fieldset>
-        <fieldset class="form-group">
-          <label class="form-group-label">Email</label>
-          <br/>
-          <input class="textInput" type="text" name="Email" required="" />
-        </fieldset>
-        <fieldset class="form-group">
-          <label class="form-group-label">Title</label>
-          <br/>
-          <input class="textInput" type="text" name="Email" required="" />
-        </fieldset>
-        <br/>
-        <div class="wrapper submit-wrapper">
-          <input class="btn submit-btn" type="submit"/>
-        </div>
-      </form>
-  </section>
+  <div class="row">
+    <h2 classs="page-headline col-sm-12 col-md-12 col-lg-12 col-xl-12">Header Text</h2>
+  </div>
+  <div class="row">
+
+    <div class="event-description col-sm-6 col-md-6 col-lg-6 col-xl-6">
+
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+      <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+      <p> Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. </p>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+      <section>
+        <h3 class="rsvp-header">RSVP</h3>
+        <p class="rsvp-p">Yes, we would like to attend the ARRIS job fair(s).</p>
+      </section>
+      <section class="form-section">
+        <form class="row">
+            <fieldset class="form-group col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <label class="form-group-label">First Name</label>
+              <br/>
+              <input class="textInput" type="text" name="firstName"  />
+            </fieldset>
+            <fieldset class="form-group col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <label class="form-group-label">Last Name</label><br />
+              <input class="textInput" type="text" name="lastName"  />
+            </fieldset>
+            <fieldset class="form-group col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              <label class="form-group-label">Email</label>
+              <br/>
+              <input class="textInput" type="text" name="email"  />
+            </fieldset>
+            <fieldset class="form-group col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              <label class="form-group-label">Company</label>
+              <br/>
+              <input class="textInput" type="text" name="company"  />
+            </fieldset>
+            <fieldset class="form-group col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              <label class="form-group-label">Title</label>
+              <br/>
+              <input class="textInput" type="text" name="title"  />
+            </fieldset>
+            <fieldset class="form-group col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              <label class="form-group-label">Phone Number</label>
+              <br/>
+              <input class="textInput" type="text" name="phone"  />
+            </fieldset>
+            <br/>
+            <div class="wrapper submit-wrapper col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <input class="btn submit-btn" type="submit"/>
+            </div>
+          </form>
+      </section>
+    </div>
+  </div>
   <section>
     <a target="_blank" href="http://www.waldronhr.com">
       <img  class="company-logo" src="images/waldronlogo_cpi.png">
     </a>
   </section>
   <footer >
-    <h5>7373 East Doubletree Ranch Rd Suite 200 Scottsdale, AZ 85258</h5>
-    <h5><a target="_blank" href="http://www.waldronhr.com">waldronhr.com</a> | (480)778-1678</h5>
-    <h5>Copyright &copy; 2016 Waldron. All Rights Reserved.</h5>
+    <h5 class="footer-h5">7373 East Doubletree Ranch Rd Suite 200 Scottsdale, AZ 85258</h5>
+    <h5 class="footer-h5"><a target="_blank" href="http://www.waldronhr.com">waldronhr.com</a> | (480)778-1678</h5>
+    <h5 class="footer-h5">Copyright &copy; 2016 Waldron. All Rights Reserved.</h5>
   </footer>
 </body>
 </html>
